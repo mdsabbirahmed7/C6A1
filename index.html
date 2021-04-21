@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-1</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Form start here -->
+    
+    <form>
+        <label for="fname">First Name</label> <br>
+        <input type="text" id="fname" placeholder="Input Your first name" required autocomplete="off"> <br><br>
+
+        <label for="lname">Last Name</label> <br>
+        <input type="text" id="lname" placeholder="Input Your last Name" required autocomplete="off"> <br><br>
+
+        <label for="email">Email Address</label> <br>
+        <input type="email" id="email" placeholder="Input Your email number" required autocomplete="off"> <br><br>
+        
+        <label for="password">Password</label> <br>
+        <input type="password" id="password" placeholder="password lenght 8-12" minlength="8" maxlength="12" required autocomplete="off"> <br><br>
+        
+        <label for="gender">Gender</label> <br>
+        <input type="radio" name="gender">Male<br>
+        <input type="radio" name="gender">Female<br>
+        <input type="radio" name="gender">Other<br><br>
+
+        <label for="status">Marital Status</label> <br>
+        <input type="checkbox" id="status" name="status">Married<br>
+        <input type="checkbox" id="status" name="status">Unmarried<br><br>
+
+        <label for="">Country</label> <br>
+        <select name="" id="">
+            <option value="">Select Your Country</option>
+            <option value="">Australia</option>
+            <option value="">Bangladesh</option>
+            <option value="">England</option>
+        </select><br><br>
+
+        <label for="">Hobby</label> <br>
+        <select name="" id="" multiple>
+            <option value="">Select Your Hobby</option>
+            <option value="">Reading</option>
+            <option value="">Writing</option>
+            <option value="">Singing</option>
+        </select><br><br>
+        
+        <label for="messege">Messege</label> <br>
+        <textarea id="messege" cols="30" rows="10" placeholder="Type your messege"></textarea><br><br>
+
+        <label for="file upload">Upload Your Files</label> <br>
+        <input type="file" id="file upload" placeholder="Browse file" multiple><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+        <br><br>
+        
+    </form>
+
+    <!-- Form end here -->
+    
+</body>
+</html>
